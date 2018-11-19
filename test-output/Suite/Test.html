@@ -1,0 +1,378 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 19 23:53:51 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7115 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.tests.DeleteTest.f()'><b>f</b><br>Test class: com.automation.tests.DeleteTest<br/>
+<a href="#Output-30498584" onClick='toggleBox("Output-30498584", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-30498584" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-30498584">
+About to begin executing following method : DeleteTest.f<br/>
+Get connection for route {s}->https://reqres.in:443<br/>
+Connecting to reqres.in:443<br/>
+CookieSpec selected: ignoreCookies<br/>
+Auth cache not set in the context<br/>
+Target auth state: UNCHALLENGED<br/>
+Proxy auth state: UNCHALLENGED<br/>
+Attempt 1 to execute request<br/>
+Sending request: DELETE /api/users/2 HTTP/1.1<br/>
+ >> "DELETE /api/users/2 HTTP/1.1[\r][\n]"<br/>
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"<br/>
+ >> "Accept: */*[\r][\n]"<br/>
+ >> "Content-Length: 0[\r][\n]"<br/>
+ >> "Host: reqres.in[\r][\n]"<br/>
+ >> "Connection: Keep-Alive[\r][\n]"<br/>
+ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"<br/>
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"<br/>
+ >> "[\r][\n]"<br/>
+>> DELETE /api/users/2 HTTP/1.1<br/>
+>> Content-Type: application/json; charset=UTF-8<br/>
+>> Accept: */*<br/>
+>> Content-Length: 0<br/>
+>> Host: reqres.in<br/>
+>> Connection: Keep-Alive<br/>
+>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)<br/>
+>> Accept-Encoding: gzip,deflate<br/>
+ << "HTTP/1.1 204 No Content[\r][\n]"<br/>
+ << "Date: Mon, 19 Nov 2018 18:23:54 GMT[\r][\n]"<br/>
+ << "Connection: keep-alive[\r][\n]"<br/>
+ << "Set-Cookie: __cfduid=d4108f58dfebdac80e04ff629f1f26b441542651834; expires=Tue, 19-Nov-19 18:23:54 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"<br/>
+ << "X-Powered-By: Express[\r][\n]"<br/>
+ << "Access-Control-Allow-Origin: *[\r][\n]"<br/>
+ << "ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"<br/>
+ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"<br/>
+ << "Server: cloudflare[\r][\n]"<br/>
+ << "CF-RAY: 47c4b5eb5a0c3144-SIN[\r][\n]"<br/>
+ << "[\r][\n]"<br/>
+Receiving response: HTTP/1.1 204 No Content<br/>
+<< HTTP/1.1 204 No Content<br/>
+<< Date: Mon, 19 Nov 2018 18:23:54 GMT<br/>
+<< Connection: keep-alive<br/>
+<< Set-Cookie: __cfduid=d4108f58dfebdac80e04ff629f1f26b441542651834; expires=Tue, 19-Nov-19 18:23:54 GMT; path=/; domain=.reqres.in; HttpOnly<br/>
+<< X-Powered-By: Express<br/>
+<< Access-Control-Allow-Origin: *<br/>
+<< ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"<br/>
+<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"<br/>
+<< Server: cloudflare<br/>
+<< CF-RAY: 47c4b5eb5a0c3144-SIN<br/>
+Connection can be kept alive indefinitely<br/>
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@c62a3b<br/>
+Connection can be kept alive indefinitely<br/>
+<br/>
+Completed executing following method : DeleteTest.f<br/>
+Test Method resides in com.automation.tests.DeleteTest<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.automation.tests.DeleteTest@1275dab</td></tr>
+<tr>
+<td title='com.automation.tests.GetTest.f()'><b>f</b><br>Test class: com.automation.tests.GetTest<br/>
+<a href="#Output-17044015" onClick='toggleBox("Output-17044015", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17044015" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17044015">
+About to begin executing following method : GetTest.f<br/>
+Get connection for route {s}->https://reqres.in:443<br/>
+Connecting to reqres.in:443<br/>
+CookieSpec selected: ignoreCookies<br/>
+Auth cache not set in the context<br/>
+Target auth state: UNCHALLENGED<br/>
+Proxy auth state: UNCHALLENGED<br/>
+Attempt 1 to execute request<br/>
+Sending request: GET /api/users/2 HTTP/1.1<br/>
+ >> "GET /api/users/2 HTTP/1.1[\r][\n]"<br/>
+ >> "Accept: */*[\r][\n]"<br/>
+ >> "Content-Length: 0[\r][\n]"<br/>
+ >> "Host: reqres.in[\r][\n]"<br/>
+ >> "Connection: Keep-Alive[\r][\n]"<br/>
+ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"<br/>
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"<br/>
+ >> "[\r][\n]"<br/>
+>> GET /api/users/2 HTTP/1.1<br/>
+>> Accept: */*<br/>
+>> Content-Length: 0<br/>
+>> Host: reqres.in<br/>
+>> Connection: Keep-Alive<br/>
+>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)<br/>
+>> Accept-Encoding: gzip,deflate<br/>
+ << "HTTP/1.1 200 OK[\r][\n]"<br/>
+ << "Date: Mon, 19 Nov 2018 18:23:55 GMT[\r][\n]"<br/>
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"<br/>
+ << "Transfer-Encoding: chunked[\r][\n]"<br/>
+ << "Connection: keep-alive[\r][\n]"<br/>
+ << "Set-Cookie: __cfduid=dc8d058512114655f2d2246f32b45f5f41542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"<br/>
+ << "X-Powered-By: Express[\r][\n]"<br/>
+ << "Access-Control-Allow-Origin: *[\r][\n]"<br/>
+ << "ETag: W/"89-bSBFK27ZbQL+K8fMuJn/jZrcUuk"[\r][\n]"<br/>
+ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"<br/>
+ << "Server: cloudflare[\r][\n]"<br/>
+ << "CF-RAY: 47c4b5f0ce813150-SIN[\r][\n]"<br/>
+ << "Content-Encoding: gzip[\r][\n]"<br/>
+ << "[\r][\n]"<br/>
+Receiving response: HTTP/1.1 200 OK<br/>
+<< HTTP/1.1 200 OK<br/>
+<< Date: Mon, 19 Nov 2018 18:23:55 GMT<br/>
+<< Content-Type: application/json; charset=utf-8<br/>
+<< Transfer-Encoding: chunked<br/>
+<< Connection: keep-alive<br/>
+<< Set-Cookie: __cfduid=dc8d058512114655f2d2246f32b45f5f41542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly<br/>
+<< X-Powered-By: Express<br/>
+<< Access-Control-Allow-Origin: *<br/>
+<< ETag: W/"89-bSBFK27ZbQL+K8fMuJn/jZrcUuk"<br/>
+<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"<br/>
+<< Server: cloudflare<br/>
+<< CF-RAY: 47c4b5f0ce813150-SIN<br/>
+<< Content-Encoding: gzip<br/>
+Connection can be kept alive indefinitely<br/>
+Parsing response as: application/json; charset=utf-8<br/>
+ << "7f[\r][\n]"<br/>
+ << "[0x1f]"<br/>
+ << "[0x8b]"<br/>
+ << "[0x8]"<br/>
+ << "[0x0]"<br/>
+ << "[0x0][0x0][0x0][0x0][0x0][0x3]"<br/>
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream<br/>
+ << "D[0xc8];[0xe][0x82]@[0x14][0x5][0xd0][0xbd][0xdc]z[0xc2]Dl[0xcc],[0xc1][\r]X[0x9a][0x1b]x[0xc8][0x10][0xe7][0x93]yOH [0xec][0xdd][0xc2][0xc2][0xe6][0x14][0xe7][0xc0]H#[0xc2][0x81]8"[0xf4][0xe]Slj[0xcf][0xcc]$[0x8][0xb8]3[0x8b][0xc1][0xe1][0xcd][0xff]=[0x84][0xab]48p[0xa5][0xb1]!`6[0xab][0x1a][0xbc][0xd7]k[0xc7][0xc4][0xbd]dn[0xda][\r]%[0xf9]O[0x9c]8[0x88][0xfa][0x9f][0xb6]E3i~)*uV[0x93][0x98][0xfd][0xa5][0xbf]uK}[0xe1]<[0xbf][0x0][0x0][0x0][0xff][0xff]"<br/>
+ << "[\r][\n]"<br/>
+ << "a[\r][\n]"<br/>
+ << "[0x3][0x0][0x8e][0x1e]_L[0x89][0x0][0x0][0x0]"<br/>
+ << "[\r][\n]"<br/>
+ << "0[\r][\n]"<br/>
+ << "[\r][\n]"<br/>
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b0ae1b<br/>
+Connection can be kept alive indefinitely<br/>
+{"data":{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"}}<br/>
+Completed executing following method : GetTest.f<br/>
+Test Method resides in com.automation.tests.GetTest<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.GetTest@1832929</td></tr>
+<tr>
+<td title='com.automation.tests.PostTest.f()'><b>f</b><br>Test class: com.automation.tests.PostTest<br/>
+<a href="#Output-26005746" onClick='toggleBox("Output-26005746", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26005746" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26005746">
+About to begin executing following method : PostTest.f<br/>
+Get connection for route {s}->https://reqres.in:443<br/>
+Connecting to reqres.in:443<br/>
+CookieSpec selected: ignoreCookies<br/>
+Auth cache not set in the context<br/>
+Target auth state: UNCHALLENGED<br/>
+Proxy auth state: UNCHALLENGED<br/>
+Attempt 1 to execute request<br/>
+Sending request: POST /api/users HTTP/1.1<br/>
+ >> "POST /api/users HTTP/1.1[\r][\n]"<br/>
+ >> "Accept: */*[\r][\n]"<br/>
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"<br/>
+ >> "Content-Length: 63[\r][\n]"<br/>
+ >> "Host: reqres.in[\r][\n]"<br/>
+ >> "Connection: Keep-Alive[\r][\n]"<br/>
+ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"<br/>
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"<br/>
+ >> "[\r][\n]"<br/>
+>> POST /api/users HTTP/1.1<br/>
+>> Accept: */*<br/>
+>> Content-Type: application/json; charset=UTF-8<br/>
+>> Content-Length: 63<br/>
+>> Host: reqres.in<br/>
+>> Connection: Keep-Alive<br/>
+>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)<br/>
+>> Accept-Encoding: gzip,deflate<br/>
+ >> "{"name":"testManoja","job":"nothing","additionalProperties":{}}"<br/>
+ << "HTTP/1.1 201 Created[\r][\n]"<br/>
+ << "Date: Mon, 19 Nov 2018 18:23:56 GMT[\r][\n]"<br/>
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"<br/>
+ << "Content-Length: 113[\r][\n]"<br/>
+ << "Connection: keep-alive[\r][\n]"<br/>
+ << "Set-Cookie: __cfduid=dd56994544aff6b4ca5f5b04c3e93e2751542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"<br/>
+ << "X-Powered-By: Express[\r][\n]"<br/>
+ << "Access-Control-Allow-Origin: *[\r][\n]"<br/>
+ << "ETag: W/"71-DYAdePLxQRLo8nEHxVYJHcigadk"[\r][\n]"<br/>
+ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"<br/>
+ << "Server: cloudflare[\r][\n]"<br/>
+ << "CF-RAY: 47c4b5f6498d3144-SIN[\r][\n]"<br/>
+ << "[\r][\n]"<br/>
+Receiving response: HTTP/1.1 201 Created<br/>
+<< HTTP/1.1 201 Created<br/>
+<< Date: Mon, 19 Nov 2018 18:23:56 GMT<br/>
+<< Content-Type: application/json; charset=utf-8<br/>
+<< Content-Length: 113<br/>
+<< Connection: keep-alive<br/>
+<< Set-Cookie: __cfduid=dd56994544aff6b4ca5f5b04c3e93e2751542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly<br/>
+<< X-Powered-By: Express<br/>
+<< Access-Control-Allow-Origin: *<br/>
+<< ETag: W/"71-DYAdePLxQRLo8nEHxVYJHcigadk"<br/>
+<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"<br/>
+<< Server: cloudflare<br/>
+<< CF-RAY: 47c4b5f6498d3144-SIN<br/>
+Connection can be kept alive indefinitely<br/>
+Parsing response as: application/json; charset=utf-8<br/>
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream<br/>
+ << "{"name":"testManoja","job":"nothing","additionalProperties":{},"id":"737","createdAt":"2018-11-19T18:26:58.010Z"}"<br/>
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@8a247c<br/>
+Connection can be kept alive indefinitely<br/>
+{"name":"testManoja","job":"nothing","additionalProperties":{},"id":"737","createdAt":"2018-11-19T18:26:58.010Z"}<br/>
+Completed executing following method : PostTest.f<br/>
+Test Method resides in com.automation.tests.PostTest<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.PostTest@1774679</td></tr>
+<tr>
+<td title='com.automation.tests.PutTest.f()'><b>f</b><br>Test class: com.automation.tests.PutTest<br/>
+<a href="#Output-22764708" onClick='toggleBox("Output-22764708", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22764708" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22764708">
+About to begin executing following method : PutTest.f<br/>
+Get connection for route {s}->https://reqres.in:443<br/>
+Connecting to reqres.in:443<br/>
+CookieSpec selected: ignoreCookies<br/>
+Auth cache not set in the context<br/>
+Target auth state: UNCHALLENGED<br/>
+Proxy auth state: UNCHALLENGED<br/>
+Attempt 1 to execute request<br/>
+Sending request: POST /api/users HTTP/1.1<br/>
+ >> "POST /api/users HTTP/1.1[\r][\n]"<br/>
+ >> "Accept: */*[\r][\n]"<br/>
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"<br/>
+ >> "Content-Length: 80[\r][\n]"<br/>
+ >> "Host: reqres.in[\r][\n]"<br/>
+ >> "Connection: Keep-Alive[\r][\n]"<br/>
+ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"<br/>
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"<br/>
+ >> "[\r][\n]"<br/>
+>> POST /api/users HTTP/1.1<br/>
+>> Accept: */*<br/>
+>> Content-Type: application/json; charset=UTF-8<br/>
+>> Content-Length: 80<br/>
+>> Host: reqres.in<br/>
+>> Connection: Keep-Alive<br/>
+>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)<br/>
+>> Accept-Encoding: gzip,deflate<br/>
+ >> "{"name":"testManoja234","job":"nothing test","id":"2","additionalProperties":{}}"<br/>
+ << "HTTP/1.1 201 Created[\r][\n]"<br/>
+ << "Date: Mon, 19 Nov 2018 18:23:56 GMT[\r][\n]"<br/>
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"<br/>
+ << "Content-Length: 119[\r][\n]"<br/>
+ << "Connection: keep-alive[\r][\n]"<br/>
+ << "Set-Cookie: __cfduid=dde901ed817c6a0925d40923eedb9629f1542651836; expires=Tue, 19-Nov-19 18:23:56 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"<br/>
+ << "X-Powered-By: Express[\r][\n]"<br/>
+ << "Access-Control-Allow-Origin: *[\r][\n]"<br/>
+ << "ETag: W/"77-VwFhmG7/Unuki7RfaEF+2FF4KxQ"[\r][\n]"<br/>
+ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"<br/>
+ << "Server: cloudflare[\r][\n]"<br/>
+ << "CF-RAY: 47c4b5fb3bd03138-SIN[\r][\n]"<br/>
+ << "[\r][\n]"<br/>
+Receiving response: HTTP/1.1 201 Created<br/>
+<< HTTP/1.1 201 Created<br/>
+<< Date: Mon, 19 Nov 2018 18:23:56 GMT<br/>
+<< Content-Type: application/json; charset=utf-8<br/>
+<< Content-Length: 119<br/>
+<< Connection: keep-alive<br/>
+<< Set-Cookie: __cfduid=dde901ed817c6a0925d40923eedb9629f1542651836; expires=Tue, 19-Nov-19 18:23:56 GMT; path=/; domain=.reqres.in; HttpOnly<br/>
+<< X-Powered-By: Express<br/>
+<< Access-Control-Allow-Origin: *<br/>
+<< ETag: W/"77-VwFhmG7/Unuki7RfaEF+2FF4KxQ"<br/>
+<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"<br/>
+<< Server: cloudflare<br/>
+<< CF-RAY: 47c4b5fb3bd03138-SIN<br/>
+Connection can be kept alive indefinitely<br/>
+Parsing response as: application/json; charset=utf-8<br/>
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream<br/>
+ << "{"name":"testManoja234","job":"nothing test","id":"2","additionalProperties":{},"createdAt":"2018-11-19T18:26:58.622Z"}"<br/>
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@13deac2<br/>
+Connection can be kept alive indefinitely<br/>
+{"name":"testManoja234","job":"nothing test","id":"2","additionalProperties":{},"createdAt":"2018-11-19T18:26:58.622Z"}<br/>
+Completed executing following method : PutTest.f<br/>
+Test Method resides in com.automation.tests.PutTest<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.PutTest@1fc5af1</td></tr>
+</table><p>
+</body>
+</html>

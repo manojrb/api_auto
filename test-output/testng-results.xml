@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Suite Suite]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test Test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : DeleteTest.f]]>
+    </line>
+    <line>
+      <![CDATA[Get connection for route {s}->https://reqres.in:443]]>
+    </line>
+    <line>
+      <![CDATA[Connecting to reqres.in:443]]>
+    </line>
+    <line>
+      <![CDATA[CookieSpec selected: ignoreCookies]]>
+    </line>
+    <line>
+      <![CDATA[Auth cache not set in the context]]>
+    </line>
+    <line>
+      <![CDATA[Target auth state: UNCHALLENGED]]>
+    </line>
+    <line>
+      <![CDATA[Proxy auth state: UNCHALLENGED]]>
+    </line>
+    <line>
+      <![CDATA[Attempt 1 to execute request]]>
+    </line>
+    <line>
+      <![CDATA[Sending request: DELETE /api/users/2 HTTP/1.1]]>
+    </line>
+    <line>
+      <![CDATA[ >> "DELETE /api/users/2 HTTP/1.1[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Accept: */*[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Content-Length: 0[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Host: reqres.in[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Connection: Keep-Alive[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Accept-Encoding: gzip,deflate[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[>> DELETE /api/users/2 HTTP/1.1]]>
+    </line>
+    <line>
+      <![CDATA[>> Content-Type: application/json; charset=UTF-8]]>
+    </line>
+    <line>
+      <![CDATA[>> Accept: */*]]>
+    </line>
+    <line>
+      <![CDATA[>> Content-Length: 0]]>
+    </line>
+    <line>
+      <![CDATA[>> Host: reqres.in]]>
+    </line>
+    <line>
+      <![CDATA[>> Connection: Keep-Alive]]>
+    </line>
+    <line>
+      <![CDATA[>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)]]>
+    </line>
+    <line>
+      <![CDATA[>> Accept-Encoding: gzip,deflate]]>
+    </line>
+    <line>
+      <![CDATA[ << "HTTP/1.1 204 No Content[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Date: Mon, 19 Nov 2018 18:23:54 GMT[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Connection: keep-alive[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Set-Cookie: __cfduid=d4108f58dfebdac80e04ff629f1f26b441542651834; expires=Tue, 19-Nov-19 18:23:54 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "X-Powered-By: Express[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Access-Control-Allow-Origin: *[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Server: cloudflare[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "CF-RAY: 47c4b5eb5a0c3144-SIN[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[Receiving response: HTTP/1.1 204 No Content]]>
+    </line>
+    <line>
+      <![CDATA[<< HTTP/1.1 204 No Content]]>
+    </line>
+    <line>
+      <![CDATA[<< Date: Mon, 19 Nov 2018 18:23:54 GMT]]>
+    </line>
+    <line>
+      <![CDATA[<< Connection: keep-alive]]>
+    </line>
+    <line>
+      <![CDATA[<< Set-Cookie: __cfduid=d4108f58dfebdac80e04ff629f1f26b441542651834; expires=Tue, 19-Nov-19 18:23:54 GMT; path=/; domain=.reqres.in; HttpOnly]]>
+    </line>
+    <line>
+      <![CDATA[<< X-Powered-By: Express]]>
+    </line>
+    <line>
+      <![CDATA[<< Access-Control-Allow-Origin: *]]>
+    </line>
+    <line>
+      <![CDATA[<< ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"]]>
+    </line>
+    <line>
+      <![CDATA[<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]]>
+    </line>
+    <line>
+      <![CDATA[<< Server: cloudflare]]>
+    </line>
+    <line>
+      <![CDATA[<< CF-RAY: 47c4b5eb5a0c3144-SIN]]>
+    </line>
+    <line>
+      <![CDATA[Connection can be kept alive indefinitely]]>
+    </line>
+    <line>
+      <![CDATA[Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@c62a3b]]>
+    </line>
+    <line>
+      <![CDATA[Connection can be kept alive indefinitely]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : DeleteTest.f]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.automation.tests.DeleteTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : GetTest.f]]>
+    </line>
+    <line>
+      <![CDATA[Get connection for route {s}->https://reqres.in:443]]>
+    </line>
+    <line>
+      <![CDATA[Connecting to reqres.in:443]]>
+    </line>
+    <line>
+      <![CDATA[CookieSpec selected: ignoreCookies]]>
+    </line>
+    <line>
+      <![CDATA[Auth cache not set in the context]]>
+    </line>
+    <line>
+      <![CDATA[Target auth state: UNCHALLENGED]]>
+    </line>
+    <line>
+      <![CDATA[Proxy auth state: UNCHALLENGED]]>
+    </line>
+    <line>
+      <![CDATA[Attempt 1 to execute request]]>
+    </line>
+    <line>
+      <![CDATA[Sending request: GET /api/users/2 HTTP/1.1]]>
+    </line>
+    <line>
+      <![CDATA[ >> "GET /api/users/2 HTTP/1.1[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Accept: */*[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Content-Length: 0[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Host: reqres.in[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Connection: Keep-Alive[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Accept-Encoding: gzip,deflate[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[>> GET /api/users/2 HTTP/1.1]]>
+    </line>
+    <line>
+      <![CDATA[>> Accept: */*]]>
+    </line>
+    <line>
+      <![CDATA[>> Content-Length: 0]]>
+    </line>
+    <line>
+      <![CDATA[>> Host: reqres.in]]>
+    </line>
+    <line>
+      <![CDATA[>> Connection: Keep-Alive]]>
+    </line>
+    <line>
+      <![CDATA[>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)]]>
+    </line>
+    <line>
+      <![CDATA[>> Accept-Encoding: gzip,deflate]]>
+    </line>
+    <line>
+      <![CDATA[ << "HTTP/1.1 200 OK[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Date: Mon, 19 Nov 2018 18:23:55 GMT[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Content-Type: application/json; charset=utf-8[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Transfer-Encoding: chunked[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Connection: keep-alive[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Set-Cookie: __cfduid=dc8d058512114655f2d2246f32b45f5f41542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "X-Powered-By: Express[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Access-Control-Allow-Origin: *[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "ETag: W/"89-bSBFK27ZbQL+K8fMuJn/jZrcUuk"[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Server: cloudflare[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "CF-RAY: 47c4b5f0ce813150-SIN[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Content-Encoding: gzip[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[Receiving response: HTTP/1.1 200 OK]]>
+    </line>
+    <line>
+      <![CDATA[<< HTTP/1.1 200 OK]]>
+    </line>
+    <line>
+      <![CDATA[<< Date: Mon, 19 Nov 2018 18:23:55 GMT]]>
+    </line>
+    <line>
+      <![CDATA[<< Content-Type: application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[<< Transfer-Encoding: chunked]]>
+    </line>
+    <line>
+      <![CDATA[<< Connection: keep-alive]]>
+    </line>
+    <line>
+      <![CDATA[<< Set-Cookie: __cfduid=dc8d058512114655f2d2246f32b45f5f41542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly]]>
+    </line>
+    <line>
+      <![CDATA[<< X-Powered-By: Express]]>
+    </line>
+    <line>
+      <![CDATA[<< Access-Control-Allow-Origin: *]]>
+    </line>
+    <line>
+      <![CDATA[<< ETag: W/"89-bSBFK27ZbQL+K8fMuJn/jZrcUuk"]]>
+    </line>
+    <line>
+      <![CDATA[<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]]>
+    </line>
+    <line>
+      <![CDATA[<< Server: cloudflare]]>
+    </line>
+    <line>
+      <![CDATA[<< CF-RAY: 47c4b5f0ce813150-SIN]]>
+    </line>
+    <line>
+      <![CDATA[<< Content-Encoding: gzip]]>
+    </line>
+    <line>
+      <![CDATA[Connection can be kept alive indefinitely]]>
+    </line>
+    <line>
+      <![CDATA[Parsing response as: application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[ << "7f[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[0x1f]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[0x8b]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[0x8]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[0x0]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[0x0][0x0][0x0][0x0][0x0][0x3]"]]>
+    </line>
+    <line>
+      <![CDATA[Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream]]>
+    </line>
+    <line>
+      <![CDATA[ << "D[0xc8];[0xe][0x82]@[0x14][0x5][0xd0][0xbd][0xdc]z[0xc2]Dl[0xcc],[0xc1][\r]X[0x9a][0x1b]x[0xc8][0x10][0xe7][0x93]yOH [0xec][0xdd][0xc2][0xc2][0xe6][0x14][0xe7][0xc0]H#[0xc2][0x81]8"[0xf4][0xe]Slj[0xcf][0xcc]$[0x8][0xb8]3[0x8b][0xc1][0xe1][0xcd][0xff]=[0x84][0xab]48p[0xa5][0xb1]!`6[0xab][0x1a][0xbc][0xd7]k[0xc7][0xc4][0xbd]dn[0xda][\r]%[0xf9]O[0x9c]8[0x88][0xfa][0x9f][0xb6]E3i~)*uV[0x93][0x98][0xfd][0xa5][0xbf]uK}[0xe1]<[0xbf][0x0][0x0][0x0][0xff][0xff]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "a[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[0x3][0x0][0x8e][0x1e]_L[0x89][0x0][0x0][0x0]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "0[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b0ae1b]]>
+    </line>
+    <line>
+      <![CDATA[Connection can be kept alive indefinitely]]>
+    </line>
+    <line>
+      <![CDATA[{"data":{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"}}]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : GetTest.f]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.automation.tests.GetTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : PostTest.f]]>
+    </line>
+    <line>
+      <![CDATA[Get connection for route {s}->https://reqres.in:443]]>
+    </line>
+    <line>
+      <![CDATA[Connecting to reqres.in:443]]>
+    </line>
+    <line>
+      <![CDATA[CookieSpec selected: ignoreCookies]]>
+    </line>
+    <line>
+      <![CDATA[Auth cache not set in the context]]>
+    </line>
+    <line>
+      <![CDATA[Target auth state: UNCHALLENGED]]>
+    </line>
+    <line>
+      <![CDATA[Proxy auth state: UNCHALLENGED]]>
+    </line>
+    <line>
+      <![CDATA[Attempt 1 to execute request]]>
+    </line>
+    <line>
+      <![CDATA[Sending request: POST /api/users HTTP/1.1]]>
+    </line>
+    <line>
+      <![CDATA[ >> "POST /api/users HTTP/1.1[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Accept: */*[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Content-Length: 63[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Host: reqres.in[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Connection: Keep-Alive[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Accept-Encoding: gzip,deflate[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[>> POST /api/users HTTP/1.1]]>
+    </line>
+    <line>
+      <![CDATA[>> Accept: */*]]>
+    </line>
+    <line>
+      <![CDATA[>> Content-Type: application/json; charset=UTF-8]]>
+    </line>
+    <line>
+      <![CDATA[>> Content-Length: 63]]>
+    </line>
+    <line>
+      <![CDATA[>> Host: reqres.in]]>
+    </line>
+    <line>
+      <![CDATA[>> Connection: Keep-Alive]]>
+    </line>
+    <line>
+      <![CDATA[>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)]]>
+    </line>
+    <line>
+      <![CDATA[>> Accept-Encoding: gzip,deflate]]>
+    </line>
+    <line>
+      <![CDATA[ >> "{"name":"testManoja","job":"nothing","additionalProperties":{}}"]]>
+    </line>
+    <line>
+      <![CDATA[ << "HTTP/1.1 201 Created[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Date: Mon, 19 Nov 2018 18:23:56 GMT[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Content-Type: application/json; charset=utf-8[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Content-Length: 113[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Connection: keep-alive[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Set-Cookie: __cfduid=dd56994544aff6b4ca5f5b04c3e93e2751542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "X-Powered-By: Express[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Access-Control-Allow-Origin: *[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "ETag: W/"71-DYAdePLxQRLo8nEHxVYJHcigadk"[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Server: cloudflare[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "CF-RAY: 47c4b5f6498d3144-SIN[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[Receiving response: HTTP/1.1 201 Created]]>
+    </line>
+    <line>
+      <![CDATA[<< HTTP/1.1 201 Created]]>
+    </line>
+    <line>
+      <![CDATA[<< Date: Mon, 19 Nov 2018 18:23:56 GMT]]>
+    </line>
+    <line>
+      <![CDATA[<< Content-Type: application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[<< Content-Length: 113]]>
+    </line>
+    <line>
+      <![CDATA[<< Connection: keep-alive]]>
+    </line>
+    <line>
+      <![CDATA[<< Set-Cookie: __cfduid=dd56994544aff6b4ca5f5b04c3e93e2751542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly]]>
+    </line>
+    <line>
+      <![CDATA[<< X-Powered-By: Express]]>
+    </line>
+    <line>
+      <![CDATA[<< Access-Control-Allow-Origin: *]]>
+    </line>
+    <line>
+      <![CDATA[<< ETag: W/"71-DYAdePLxQRLo8nEHxVYJHcigadk"]]>
+    </line>
+    <line>
+      <![CDATA[<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]]>
+    </line>
+    <line>
+      <![CDATA[<< Server: cloudflare]]>
+    </line>
+    <line>
+      <![CDATA[<< CF-RAY: 47c4b5f6498d3144-SIN]]>
+    </line>
+    <line>
+      <![CDATA[Connection can be kept alive indefinitely]]>
+    </line>
+    <line>
+      <![CDATA[Parsing response as: application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream]]>
+    </line>
+    <line>
+      <![CDATA[ << "{"name":"testManoja","job":"nothing","additionalProperties":{},"id":"737","createdAt":"2018-11-19T18:26:58.010Z"}"]]>
+    </line>
+    <line>
+      <![CDATA[Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@8a247c]]>
+    </line>
+    <line>
+      <![CDATA[Connection can be kept alive indefinitely]]>
+    </line>
+    <line>
+      <![CDATA[{"name":"testManoja","job":"nothing","additionalProperties":{},"id":"737","createdAt":"2018-11-19T18:26:58.010Z"}]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : PostTest.f]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.automation.tests.PostTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : PutTest.f]]>
+    </line>
+    <line>
+      <![CDATA[Get connection for route {s}->https://reqres.in:443]]>
+    </line>
+    <line>
+      <![CDATA[Connecting to reqres.in:443]]>
+    </line>
+    <line>
+      <![CDATA[CookieSpec selected: ignoreCookies]]>
+    </line>
+    <line>
+      <![CDATA[Auth cache not set in the context]]>
+    </line>
+    <line>
+      <![CDATA[Target auth state: UNCHALLENGED]]>
+    </line>
+    <line>
+      <![CDATA[Proxy auth state: UNCHALLENGED]]>
+    </line>
+    <line>
+      <![CDATA[Attempt 1 to execute request]]>
+    </line>
+    <line>
+      <![CDATA[Sending request: POST /api/users HTTP/1.1]]>
+    </line>
+    <line>
+      <![CDATA[ >> "POST /api/users HTTP/1.1[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Accept: */*[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Content-Length: 80[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Host: reqres.in[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Connection: Keep-Alive[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "Accept-Encoding: gzip,deflate[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ >> "[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[>> POST /api/users HTTP/1.1]]>
+    </line>
+    <line>
+      <![CDATA[>> Accept: */*]]>
+    </line>
+    <line>
+      <![CDATA[>> Content-Type: application/json; charset=UTF-8]]>
+    </line>
+    <line>
+      <![CDATA[>> Content-Length: 80]]>
+    </line>
+    <line>
+      <![CDATA[>> Host: reqres.in]]>
+    </line>
+    <line>
+      <![CDATA[>> Connection: Keep-Alive]]>
+    </line>
+    <line>
+      <![CDATA[>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)]]>
+    </line>
+    <line>
+      <![CDATA[>> Accept-Encoding: gzip,deflate]]>
+    </line>
+    <line>
+      <![CDATA[ >> "{"name":"testManoja234","job":"nothing test","id":"2","additionalProperties":{}}"]]>
+    </line>
+    <line>
+      <![CDATA[ << "HTTP/1.1 201 Created[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Date: Mon, 19 Nov 2018 18:23:56 GMT[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Content-Type: application/json; charset=utf-8[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Content-Length: 119[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Connection: keep-alive[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Set-Cookie: __cfduid=dde901ed817c6a0925d40923eedb9629f1542651836; expires=Tue, 19-Nov-19 18:23:56 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "X-Powered-By: Express[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Access-Control-Allow-Origin: *[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "ETag: W/"77-VwFhmG7/Unuki7RfaEF+2FF4KxQ"[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "Server: cloudflare[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "CF-RAY: 47c4b5fb3bd03138-SIN[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[ << "[\r][\n]"]]>
+    </line>
+    <line>
+      <![CDATA[Receiving response: HTTP/1.1 201 Created]]>
+    </line>
+    <line>
+      <![CDATA[<< HTTP/1.1 201 Created]]>
+    </line>
+    <line>
+      <![CDATA[<< Date: Mon, 19 Nov 2018 18:23:56 GMT]]>
+    </line>
+    <line>
+      <![CDATA[<< Content-Type: application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[<< Content-Length: 119]]>
+    </line>
+    <line>
+      <![CDATA[<< Connection: keep-alive]]>
+    </line>
+    <line>
+      <![CDATA[<< Set-Cookie: __cfduid=dde901ed817c6a0925d40923eedb9629f1542651836; expires=Tue, 19-Nov-19 18:23:56 GMT; path=/; domain=.reqres.in; HttpOnly]]>
+    </line>
+    <line>
+      <![CDATA[<< X-Powered-By: Express]]>
+    </line>
+    <line>
+      <![CDATA[<< Access-Control-Allow-Origin: *]]>
+    </line>
+    <line>
+      <![CDATA[<< ETag: W/"77-VwFhmG7/Unuki7RfaEF+2FF4KxQ"]]>
+    </line>
+    <line>
+      <![CDATA[<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]]>
+    </line>
+    <line>
+      <![CDATA[<< Server: cloudflare]]>
+    </line>
+    <line>
+      <![CDATA[<< CF-RAY: 47c4b5fb3bd03138-SIN]]>
+    </line>
+    <line>
+      <![CDATA[Connection can be kept alive indefinitely]]>
+    </line>
+    <line>
+      <![CDATA[Parsing response as: application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream]]>
+    </line>
+    <line>
+      <![CDATA[ << "{"name":"testManoja234","job":"nothing test","id":"2","additionalProperties":{},"createdAt":"2018-11-19T18:26:58.622Z"}"]]>
+    </line>
+    <line>
+      <![CDATA[Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@13deac2]]>
+    </line>
+    <line>
+      <![CDATA[Connection can be kept alive indefinitely]]>
+    </line>
+    <line>
+      <![CDATA[{"name":"testManoja234","job":"nothing test","id":"2","additionalProperties":{},"createdAt":"2018-11-19T18:26:58.622Z"}]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : PutTest.f]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.automation.tests.PutTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7115" started-at="2018-11-19T18:23:51Z" finished-at="2018-11-19T18:23:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7115" started-at="2018-11-19T18:23:51Z" finished-at="2018-11-19T18:23:58Z">
+      <class name="com.automation.tests.PutTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.automation.tests.PutTest@1fc5af1]" name="f" duration-ms="602" started-at="2018-11-19T18:23:58Z" finished-at="2018-11-19T18:23:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : PutTest.f]]>
+            </line>
+            <line>
+              <![CDATA[Get connection for route {s}->https://reqres.in:443]]>
+            </line>
+            <line>
+              <![CDATA[Connecting to reqres.in:443]]>
+            </line>
+            <line>
+              <![CDATA[CookieSpec selected: ignoreCookies]]>
+            </line>
+            <line>
+              <![CDATA[Auth cache not set in the context]]>
+            </line>
+            <line>
+              <![CDATA[Target auth state: UNCHALLENGED]]>
+            </line>
+            <line>
+              <![CDATA[Proxy auth state: UNCHALLENGED]]>
+            </line>
+            <line>
+              <![CDATA[Attempt 1 to execute request]]>
+            </line>
+            <line>
+              <![CDATA[Sending request: POST /api/users HTTP/1.1]]>
+            </line>
+            <line>
+              <![CDATA[ >> "POST /api/users HTTP/1.1[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Accept: */*[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Content-Length: 80[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Host: reqres.in[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Connection: Keep-Alive[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Accept-Encoding: gzip,deflate[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[>> POST /api/users HTTP/1.1]]>
+            </line>
+            <line>
+              <![CDATA[>> Accept: */*]]>
+            </line>
+            <line>
+              <![CDATA[>> Content-Type: application/json; charset=UTF-8]]>
+            </line>
+            <line>
+              <![CDATA[>> Content-Length: 80]]>
+            </line>
+            <line>
+              <![CDATA[>> Host: reqres.in]]>
+            </line>
+            <line>
+              <![CDATA[>> Connection: Keep-Alive]]>
+            </line>
+            <line>
+              <![CDATA[>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)]]>
+            </line>
+            <line>
+              <![CDATA[>> Accept-Encoding: gzip,deflate]]>
+            </line>
+            <line>
+              <![CDATA[ >> "{"name":"testManoja234","job":"nothing test","id":"2","additionalProperties":{}}"]]>
+            </line>
+            <line>
+              <![CDATA[ << "HTTP/1.1 201 Created[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Date: Mon, 19 Nov 2018 18:23:56 GMT[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Content-Type: application/json; charset=utf-8[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Content-Length: 119[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Connection: keep-alive[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Set-Cookie: __cfduid=dde901ed817c6a0925d40923eedb9629f1542651836; expires=Tue, 19-Nov-19 18:23:56 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "X-Powered-By: Express[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Access-Control-Allow-Origin: *[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "ETag: W/"77-VwFhmG7/Unuki7RfaEF+2FF4KxQ"[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Server: cloudflare[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "CF-RAY: 47c4b5fb3bd03138-SIN[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[Receiving response: HTTP/1.1 201 Created]]>
+            </line>
+            <line>
+              <![CDATA[<< HTTP/1.1 201 Created]]>
+            </line>
+            <line>
+              <![CDATA[<< Date: Mon, 19 Nov 2018 18:23:56 GMT]]>
+            </line>
+            <line>
+              <![CDATA[<< Content-Type: application/json; charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[<< Content-Length: 119]]>
+            </line>
+            <line>
+              <![CDATA[<< Connection: keep-alive]]>
+            </line>
+            <line>
+              <![CDATA[<< Set-Cookie: __cfduid=dde901ed817c6a0925d40923eedb9629f1542651836; expires=Tue, 19-Nov-19 18:23:56 GMT; path=/; domain=.reqres.in; HttpOnly]]>
+            </line>
+            <line>
+              <![CDATA[<< X-Powered-By: Express]]>
+            </line>
+            <line>
+              <![CDATA[<< Access-Control-Allow-Origin: *]]>
+            </line>
+            <line>
+              <![CDATA[<< ETag: W/"77-VwFhmG7/Unuki7RfaEF+2FF4KxQ"]]>
+            </line>
+            <line>
+              <![CDATA[<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]]>
+            </line>
+            <line>
+              <![CDATA[<< Server: cloudflare]]>
+            </line>
+            <line>
+              <![CDATA[<< CF-RAY: 47c4b5fb3bd03138-SIN]]>
+            </line>
+            <line>
+              <![CDATA[Connection can be kept alive indefinitely]]>
+            </line>
+            <line>
+              <![CDATA[Parsing response as: application/json; charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream]]>
+            </line>
+            <line>
+              <![CDATA[ << "{"name":"testManoja234","job":"nothing test","id":"2","additionalProperties":{},"createdAt":"2018-11-19T18:26:58.622Z"}"]]>
+            </line>
+            <line>
+              <![CDATA[Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@13deac2]]>
+            </line>
+            <line>
+              <![CDATA[Connection can be kept alive indefinitely]]>
+            </line>
+            <line>
+              <![CDATA[{"name":"testManoja234","job":"nothing test","id":"2","additionalProperties":{},"createdAt":"2018-11-19T18:26:58.622Z"}]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : PutTest.f]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.automation.tests.PutTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.automation.tests.PutTest -->
+      <class name="com.automation.tests.GetTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.automation.tests.GetTest@1832929]" name="f" duration-ms="836" started-at="2018-11-19T18:23:56Z" finished-at="2018-11-19T18:23:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : GetTest.f]]>
+            </line>
+            <line>
+              <![CDATA[Get connection for route {s}->https://reqres.in:443]]>
+            </line>
+            <line>
+              <![CDATA[Connecting to reqres.in:443]]>
+            </line>
+            <line>
+              <![CDATA[CookieSpec selected: ignoreCookies]]>
+            </line>
+            <line>
+              <![CDATA[Auth cache not set in the context]]>
+            </line>
+            <line>
+              <![CDATA[Target auth state: UNCHALLENGED]]>
+            </line>
+            <line>
+              <![CDATA[Proxy auth state: UNCHALLENGED]]>
+            </line>
+            <line>
+              <![CDATA[Attempt 1 to execute request]]>
+            </line>
+            <line>
+              <![CDATA[Sending request: GET /api/users/2 HTTP/1.1]]>
+            </line>
+            <line>
+              <![CDATA[ >> "GET /api/users/2 HTTP/1.1[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Accept: */*[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Content-Length: 0[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Host: reqres.in[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Connection: Keep-Alive[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Accept-Encoding: gzip,deflate[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[>> GET /api/users/2 HTTP/1.1]]>
+            </line>
+            <line>
+              <![CDATA[>> Accept: */*]]>
+            </line>
+            <line>
+              <![CDATA[>> Content-Length: 0]]>
+            </line>
+            <line>
+              <![CDATA[>> Host: reqres.in]]>
+            </line>
+            <line>
+              <![CDATA[>> Connection: Keep-Alive]]>
+            </line>
+            <line>
+              <![CDATA[>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)]]>
+            </line>
+            <line>
+              <![CDATA[>> Accept-Encoding: gzip,deflate]]>
+            </line>
+            <line>
+              <![CDATA[ << "HTTP/1.1 200 OK[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Date: Mon, 19 Nov 2018 18:23:55 GMT[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Content-Type: application/json; charset=utf-8[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Transfer-Encoding: chunked[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Connection: keep-alive[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Set-Cookie: __cfduid=dc8d058512114655f2d2246f32b45f5f41542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "X-Powered-By: Express[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Access-Control-Allow-Origin: *[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "ETag: W/"89-bSBFK27ZbQL+K8fMuJn/jZrcUuk"[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Server: cloudflare[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "CF-RAY: 47c4b5f0ce813150-SIN[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Content-Encoding: gzip[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[Receiving response: HTTP/1.1 200 OK]]>
+            </line>
+            <line>
+              <![CDATA[<< HTTP/1.1 200 OK]]>
+            </line>
+            <line>
+              <![CDATA[<< Date: Mon, 19 Nov 2018 18:23:55 GMT]]>
+            </line>
+            <line>
+              <![CDATA[<< Content-Type: application/json; charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[<< Transfer-Encoding: chunked]]>
+            </line>
+            <line>
+              <![CDATA[<< Connection: keep-alive]]>
+            </line>
+            <line>
+              <![CDATA[<< Set-Cookie: __cfduid=dc8d058512114655f2d2246f32b45f5f41542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly]]>
+            </line>
+            <line>
+              <![CDATA[<< X-Powered-By: Express]]>
+            </line>
+            <line>
+              <![CDATA[<< Access-Control-Allow-Origin: *]]>
+            </line>
+            <line>
+              <![CDATA[<< ETag: W/"89-bSBFK27ZbQL+K8fMuJn/jZrcUuk"]]>
+            </line>
+            <line>
+              <![CDATA[<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]]>
+            </line>
+            <line>
+              <![CDATA[<< Server: cloudflare]]>
+            </line>
+            <line>
+              <![CDATA[<< CF-RAY: 47c4b5f0ce813150-SIN]]>
+            </line>
+            <line>
+              <![CDATA[<< Content-Encoding: gzip]]>
+            </line>
+            <line>
+              <![CDATA[Connection can be kept alive indefinitely]]>
+            </line>
+            <line>
+              <![CDATA[Parsing response as: application/json; charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[ << "7f[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[0x1f]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[0x8b]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[0x8]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[0x0]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[0x0][0x0][0x0][0x0][0x0][0x3]"]]>
+            </line>
+            <line>
+              <![CDATA[Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream]]>
+            </line>
+            <line>
+              <![CDATA[ << "D[0xc8];[0xe][0x82]@[0x14][0x5][0xd0][0xbd][0xdc]z[0xc2]Dl[0xcc],[0xc1][\r]X[0x9a][0x1b]x[0xc8][0x10][0xe7][0x93]yOH [0xec][0xdd][0xc2][0xc2][0xe6][0x14][0xe7][0xc0]H#[0xc2][0x81]8"[0xf4][0xe]Slj[0xcf][0xcc]$[0x8][0xb8]3[0x8b][0xc1][0xe1][0xcd][0xff]=[0x84][0xab]48p[0xa5][0xb1]!`6[0xab][0x1a][0xbc][0xd7]k[0xc7][0xc4][0xbd]dn[0xda][\r]%[0xf9]O[0x9c]8[0x88][0xfa][0x9f][0xb6]E3i~)*uV[0x93][0x98][0xfd][0xa5][0xbf]uK}[0xe1]<[0xbf][0x0][0x0][0x0][0xff][0xff]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "a[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[0x3][0x0][0x8e][0x1e]_L[0x89][0x0][0x0][0x0]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "0[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b0ae1b]]>
+            </line>
+            <line>
+              <![CDATA[Connection can be kept alive indefinitely]]>
+            </line>
+            <line>
+              <![CDATA[{"data":{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"}}]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : GetTest.f]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.automation.tests.GetTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.automation.tests.GetTest -->
+      <class name="com.automation.tests.DeleteTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.automation.tests.DeleteTest@1275dab]" name="f" duration-ms="4794" started-at="2018-11-19T18:23:51Z" finished-at="2018-11-19T18:23:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : DeleteTest.f]]>
+            </line>
+            <line>
+              <![CDATA[Get connection for route {s}->https://reqres.in:443]]>
+            </line>
+            <line>
+              <![CDATA[Connecting to reqres.in:443]]>
+            </line>
+            <line>
+              <![CDATA[CookieSpec selected: ignoreCookies]]>
+            </line>
+            <line>
+              <![CDATA[Auth cache not set in the context]]>
+            </line>
+            <line>
+              <![CDATA[Target auth state: UNCHALLENGED]]>
+            </line>
+            <line>
+              <![CDATA[Proxy auth state: UNCHALLENGED]]>
+            </line>
+            <line>
+              <![CDATA[Attempt 1 to execute request]]>
+            </line>
+            <line>
+              <![CDATA[Sending request: DELETE /api/users/2 HTTP/1.1]]>
+            </line>
+            <line>
+              <![CDATA[ >> "DELETE /api/users/2 HTTP/1.1[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Accept: */*[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Content-Length: 0[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Host: reqres.in[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Connection: Keep-Alive[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Accept-Encoding: gzip,deflate[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[>> DELETE /api/users/2 HTTP/1.1]]>
+            </line>
+            <line>
+              <![CDATA[>> Content-Type: application/json; charset=UTF-8]]>
+            </line>
+            <line>
+              <![CDATA[>> Accept: */*]]>
+            </line>
+            <line>
+              <![CDATA[>> Content-Length: 0]]>
+            </line>
+            <line>
+              <![CDATA[>> Host: reqres.in]]>
+            </line>
+            <line>
+              <![CDATA[>> Connection: Keep-Alive]]>
+            </line>
+            <line>
+              <![CDATA[>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)]]>
+            </line>
+            <line>
+              <![CDATA[>> Accept-Encoding: gzip,deflate]]>
+            </line>
+            <line>
+              <![CDATA[ << "HTTP/1.1 204 No Content[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Date: Mon, 19 Nov 2018 18:23:54 GMT[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Connection: keep-alive[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Set-Cookie: __cfduid=d4108f58dfebdac80e04ff629f1f26b441542651834; expires=Tue, 19-Nov-19 18:23:54 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "X-Powered-By: Express[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Access-Control-Allow-Origin: *[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Server: cloudflare[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "CF-RAY: 47c4b5eb5a0c3144-SIN[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[Receiving response: HTTP/1.1 204 No Content]]>
+            </line>
+            <line>
+              <![CDATA[<< HTTP/1.1 204 No Content]]>
+            </line>
+            <line>
+              <![CDATA[<< Date: Mon, 19 Nov 2018 18:23:54 GMT]]>
+            </line>
+            <line>
+              <![CDATA[<< Connection: keep-alive]]>
+            </line>
+            <line>
+              <![CDATA[<< Set-Cookie: __cfduid=d4108f58dfebdac80e04ff629f1f26b441542651834; expires=Tue, 19-Nov-19 18:23:54 GMT; path=/; domain=.reqres.in; HttpOnly]]>
+            </line>
+            <line>
+              <![CDATA[<< X-Powered-By: Express]]>
+            </line>
+            <line>
+              <![CDATA[<< Access-Control-Allow-Origin: *]]>
+            </line>
+            <line>
+              <![CDATA[<< ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"]]>
+            </line>
+            <line>
+              <![CDATA[<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]]>
+            </line>
+            <line>
+              <![CDATA[<< Server: cloudflare]]>
+            </line>
+            <line>
+              <![CDATA[<< CF-RAY: 47c4b5eb5a0c3144-SIN]]>
+            </line>
+            <line>
+              <![CDATA[Connection can be kept alive indefinitely]]>
+            </line>
+            <line>
+              <![CDATA[Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@c62a3b]]>
+            </line>
+            <line>
+              <![CDATA[Connection can be kept alive indefinitely]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : DeleteTest.f]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.automation.tests.DeleteTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.automation.tests.DeleteTest -->
+      <class name="com.automation.tests.PostTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.automation.tests.PostTest@1774679]" name="f" duration-ms="783" started-at="2018-11-19T18:23:57Z" finished-at="2018-11-19T18:23:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : PostTest.f]]>
+            </line>
+            <line>
+              <![CDATA[Get connection for route {s}->https://reqres.in:443]]>
+            </line>
+            <line>
+              <![CDATA[Connecting to reqres.in:443]]>
+            </line>
+            <line>
+              <![CDATA[CookieSpec selected: ignoreCookies]]>
+            </line>
+            <line>
+              <![CDATA[Auth cache not set in the context]]>
+            </line>
+            <line>
+              <![CDATA[Target auth state: UNCHALLENGED]]>
+            </line>
+            <line>
+              <![CDATA[Proxy auth state: UNCHALLENGED]]>
+            </line>
+            <line>
+              <![CDATA[Attempt 1 to execute request]]>
+            </line>
+            <line>
+              <![CDATA[Sending request: POST /api/users HTTP/1.1]]>
+            </line>
+            <line>
+              <![CDATA[ >> "POST /api/users HTTP/1.1[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Accept: */*[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Content-Length: 63[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Host: reqres.in[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Connection: Keep-Alive[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "Accept-Encoding: gzip,deflate[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ >> "[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[>> POST /api/users HTTP/1.1]]>
+            </line>
+            <line>
+              <![CDATA[>> Accept: */*]]>
+            </line>
+            <line>
+              <![CDATA[>> Content-Type: application/json; charset=UTF-8]]>
+            </line>
+            <line>
+              <![CDATA[>> Content-Length: 63]]>
+            </line>
+            <line>
+              <![CDATA[>> Host: reqres.in]]>
+            </line>
+            <line>
+              <![CDATA[>> Connection: Keep-Alive]]>
+            </line>
+            <line>
+              <![CDATA[>> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_191)]]>
+            </line>
+            <line>
+              <![CDATA[>> Accept-Encoding: gzip,deflate]]>
+            </line>
+            <line>
+              <![CDATA[ >> "{"name":"testManoja","job":"nothing","additionalProperties":{}}"]]>
+            </line>
+            <line>
+              <![CDATA[ << "HTTP/1.1 201 Created[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Date: Mon, 19 Nov 2018 18:23:56 GMT[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Content-Type: application/json; charset=utf-8[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Content-Length: 113[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Connection: keep-alive[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Set-Cookie: __cfduid=dd56994544aff6b4ca5f5b04c3e93e2751542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "X-Powered-By: Express[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Access-Control-Allow-Origin: *[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "ETag: W/"71-DYAdePLxQRLo8nEHxVYJHcigadk"[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "Server: cloudflare[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "CF-RAY: 47c4b5f6498d3144-SIN[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[ << "[\r][\n]"]]>
+            </line>
+            <line>
+              <![CDATA[Receiving response: HTTP/1.1 201 Created]]>
+            </line>
+            <line>
+              <![CDATA[<< HTTP/1.1 201 Created]]>
+            </line>
+            <line>
+              <![CDATA[<< Date: Mon, 19 Nov 2018 18:23:56 GMT]]>
+            </line>
+            <line>
+              <![CDATA[<< Content-Type: application/json; charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[<< Content-Length: 113]]>
+            </line>
+            <line>
+              <![CDATA[<< Connection: keep-alive]]>
+            </line>
+            <line>
+              <![CDATA[<< Set-Cookie: __cfduid=dd56994544aff6b4ca5f5b04c3e93e2751542651835; expires=Tue, 19-Nov-19 18:23:55 GMT; path=/; domain=.reqres.in; HttpOnly]]>
+            </line>
+            <line>
+              <![CDATA[<< X-Powered-By: Express]]>
+            </line>
+            <line>
+              <![CDATA[<< Access-Control-Allow-Origin: *]]>
+            </line>
+            <line>
+              <![CDATA[<< ETag: W/"71-DYAdePLxQRLo8nEHxVYJHcigadk"]]>
+            </line>
+            <line>
+              <![CDATA[<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]]>
+            </line>
+            <line>
+              <![CDATA[<< Server: cloudflare]]>
+            </line>
+            <line>
+              <![CDATA[<< CF-RAY: 47c4b5f6498d3144-SIN]]>
+            </line>
+            <line>
+              <![CDATA[Connection can be kept alive indefinitely]]>
+            </line>
+            <line>
+              <![CDATA[Parsing response as: application/json; charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream]]>
+            </line>
+            <line>
+              <![CDATA[ << "{"name":"testManoja","job":"nothing","additionalProperties":{},"id":"737","createdAt":"2018-11-19T18:26:58.010Z"}"]]>
+            </line>
+            <line>
+              <![CDATA[Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@8a247c]]>
+            </line>
+            <line>
+              <![CDATA[Connection can be kept alive indefinitely]]>
+            </line>
+            <line>
+              <![CDATA[{"name":"testManoja","job":"nothing","additionalProperties":{},"id":"737","createdAt":"2018-11-19T18:26:58.010Z"}]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : PostTest.f]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.automation.tests.PostTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.automation.tests.PostTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
